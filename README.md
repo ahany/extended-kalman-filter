@@ -19,9 +19,12 @@ This project requires Udacity Simulator which provides the inputs to the Kalman 
    * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF`
 
-## Files in the Github src Folder
+## Files in src Folder
 
-**main.cpp** - communicates with Udacity Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE
-**FusionEKF.cpp** - initializes the filter, calls the predict function, calls the update function
-**kalman_filter.cpp**- defines the predict function, the update function for lidar, and the update function for radar
-**tools.cpp**- function to calculate RMSE and the Jacobian matrix
+**main.cpp** - communicates with Udacity Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE.
+
+**FusionEKF.cpp** - initializes the filter, calls the predict function, calls the update function.
+
+**kalman_filter.cpp**- defines the predict function, the update function for lidar, and the update function for radar.
+
+**tools.cpp**- function to calculate RMSE and the Jacobian matrix.
